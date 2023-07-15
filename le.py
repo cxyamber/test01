@@ -48,6 +48,10 @@ while True:
         print(f"大點，答錯第{count}次!")
         min=keyin+1
 
-player()
+while(Ture):
+    player()
+    playagain=input("再來?(y,n)")
+    if not(playagain=="y"):
+        break
 print("遊戲結束") 
 
