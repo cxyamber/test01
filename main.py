@@ -94,3 +94,5 @@ if len(names) != 0:
     dataFrame1 = raname_columns_name(dataFrame,stockNames)
     st.sidebar.write("you selected:",start_year)
     display_Data(dataFrame1,start_year)
+
+#https://112-python-chihlee-nicdwyyjwxfbfaj7busmwb.streamlit.app/
